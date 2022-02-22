@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            "Login"
+        </title>    
+    </head>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+h3{
+padding: 12px 20px;
+}
+h1{
+text-align: center;
+background: rgb(83, 172, 83);
+color: white;
+}
+button{
+	width: 100%;
+    height: 40px;
+    font-size: 20px;
+    background: rgb(83, 172, 83);
+    cursor: pointer;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-color: rgb(83, 172, 83);
+    }
+button:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+    </style>
+    <body>
+        <div class="A">
+           <form action="servlet/" method="post">
+           <h1 class="food">Spicy Eats</h1><br><br>
+           <span class="op">
+           <h3>  Let's get started </h3><br><br>
+            <div id="input1">
+                <p>Enter your mobile number</p><br>
+                <input type="text" placeholder="Mobile number" name="mobilenumber"><br><br>
+            </div>
+            <div  id="input2">
+                <p>Enter your email address</p><br>
+                <input type="email" placeholder="Email Address" id="emailaddress" name="emailaddress"><br><br>
+                </div>
+            <div  id="run" class="input3">
+                <span class="fname">First name<br><br>
+                    <input type="text" placeholder="First Name" id="firstname" name="firstname"><br><br>
+                </span>
+                <span class="lname">Last name<br><br>
+                    <input type="text" placeholder="Last Name" id="last name" name="lastname"><br><br><br>
+                </span>
+                
+            </div>
+            <div  id="input4">   
+                <p>Enter the new password</p><br>
+                <input type="password" placeholder="Password" id="password" name="pass_word"><br><br>
+                <br><br>
+                <p> Back to sign in page <a href="mini1.html" >Sign in!!</a></p></div>
+            </span>
+            <button id="btn3" type="button" >Submit</button>
+          </form>
+    </div>
+    </body>
+</html>
