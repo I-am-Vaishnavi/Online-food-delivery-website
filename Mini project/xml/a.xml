@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="a.xsl" type="text/xsl"?>
+<class xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="a.xsd">
+    <student>
+        <name>aaaaaaaaaaa</name> 
+        <regno>11111111</regno>
+       </student>
+       <student>
+        <name>bbbbbbbb</name> 
+        <regno>2222222</regno>
+       </student><student>
+        <name>ccccccc</name> 
+        <regno>33333</regno>
+       </student><student>
+        <name>dddddd</name> 
+        <regno>444444</regno>
+       </student>
+
+
+</class>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="food.xsl" ?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="food.xsd">
+<breakfast_menu>
+<food>
+<name>Dosa</name>
+<price>20</price>
+</food>
+<food>
+<name>Poodi Dosa</name>
+<price>25</price>
+</food>
+<food>
+<name>Masal Dosa</name>
+<price>30</price>
+</food>
+<food>
+<name>Pongal</name>
+<price>40</price>
+</food>
+<food>
+<name>Poori</name>
+<price>37</price>
+</food>
+<food>
+<name>Uttapam</name>
+<price>24</price>
+</food>
+<food>
+<name>Uluntha vadai</name>
+<price>6</price>
+</food>
+<food>
+<name>Idli and Sambar</name>
+<price>10</price>
+</food>
+<food>
+<name>Kuzhi Paniyaram</name>
+<price>15</price>
+</food>
+<food>
+<name>Filter Coffee</name>
+<price>12</price>
+</food>
+<food>
+<name>Tea</name>
+<price>12</price>
+</food>
+</breakfast_menu>
+
+<Lunch>
+<food>
+<name>Meals</name>
+<price>110</price>
+</food>
+<food>
+<name>Tamarind Rice</name>
+<price>40</price>
+</food>
+<food>
+<name>Malabar Biryani</name>
+<price>85</price>
+</food>
+<food>
+<name>Avial with Kerala Red Rice</name>
+<price>76</price>
+</food>
+<food>
+<name>Curd Rice</name>
+<price>50</price>
+</food>
+<food>
+<name>Lemon Rice</name>
+<price>60</price>
+</food>
+<food>
+<name>Vegetable Biryani</name>
+<price>70</price>
+</food>
+<food>
+<name>Tomato Briyani</name>
+<price>75</price>
+</food>
+<food>
+<name>Kalan Biryani</name>
+<price>90</price>
+</food>
+<food>
+<name>Mushroom and Califlower Biryani</name>
+<price>92</price>
+</food>
+<food>
+<name>Schezwan Noodles</name>
+<price>120</price>
+</food>
+<food>
+<name>Schezwan Fried Rice</name>
+<price>112</price>
+</food>
+</Lunch>
+</menu>

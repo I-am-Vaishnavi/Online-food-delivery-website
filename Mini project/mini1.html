@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            "log in page"
+        </title>
+       <link rel="stylesheet" href="css/mini1.css"/>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script>
+           
+          $(document).ready(function(){
+          $("#btn").click(function(){
+                $("#input1").hide();
+                $("#input2").show();
+            });
+        });
+        $(document).ready(function(){
+          $("#btn1").click(function(){
+                $("#input2").hide();
+                $("#input1").show();
+            });
+        });
+         
+       </script>
+        
+    </head>
+    <body>
+        <div class=
+        "B">
+           
+           <span class="food">Spicy Food</span><br><br>
+           <span class="op">
+               <br>
+           <h3>Welcome back
+
+           </h3><br><br>
+            <div id="input1" class="demo">
+                <p>Sign in with your email or mobile number</p><br>
+                <input type="tel/text" placeholder="Email address or mobile phone" name="usernmae" value=""><br><br>
+                <button id="btn">Next</button><br><br>
+                <p>New to spicy food? <a href="mini2.html">Create an Account</a></p>
+            </div>
+            <div hidden id="input2" class="demo1">
+                <p>Please enter your password for sign in</p><br>
+                <input type="password" placeholder="Enter the password" name="password"><br><br>
+                <button >Next</button><br><br>
+                <button id="btn1">I Forgot my password?</h4></div>
+            </span>
+        
+        </div>
+        <footer>
+            <a href="#" id="side1">© 2020 Spicy Eats Technologies, Inc.</a>
+            <a href="#" id="side2">Privacy Policy  |  Terms of Use</a>
+        </footer>
+    </body>
+</html>

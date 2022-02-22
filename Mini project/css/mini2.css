@@ -1,0 +1,118 @@
+*{
+    margin:0%;
+    padding:0%;
+    user-select:none;
+}
+body{
+    margin:10%;
+    background-color:white; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.A{
+    width: 450px;
+    margin-left: 500px ; 
+    
+    }
+.food{
+    top: 10%;
+    font-size: 60px;
+    letter-spacing: 2px;
+    line-height: 80px;
+    text-align: center;
+    
+}
+h3{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div p{
+    font-size: 20px ;
+    letter-spacing: 2px;
+    
+    
+}
+div input{
+    width:120%;
+    height: 40px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: 10px;
+
+}
+div input:focus{
+    border: 2px solid #1b648f;
+}
+button{
+    width: 121%;
+    height: 40px;
+    font-size: 20px;
+    background: rgb(83, 172, 83);
+    cursor: pointer;
+    border-color: rgb(83, 172, 83);
+    
+}
+button:hover{
+       background-color: rgb(18, 88, 18);
+       color: white;
+}
+.op{
+    position: relative;
+   left: -5cm;
+
+}
+div h4{
+    text-align: 5%;
+}
+.lname,.fname{
+    float: left;
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+    
+}
+.input3 span input{
+    width: 200px;
+    float: left;  
+    
+}
+.lname{
+    margin: 0mm;
+    margin: 0mm;
+    padding: 3mm;
+    margin-top: -2.6mm;
+    text-align: -2cm end;
+}
+footer
+{
+    background-color: rgba(44, 44, 44, 0.432);
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+#side1{
+    color: black;
+    text-decoration: none;
+    margin-left: 0;
+}
+#side2{
+    color: black;
+    text-decoration: none;
+    text-align: right;
+}
+#input1 a,#input4 a{
+    text-decoration: none;
+    color: rgb(88, 197, 88);
+}
+#input1 a:hover{
+    text-decoration: dashed;
+    color: rgb(88, 197, 88);
+}
+#input4 a:hover{
+    text-decoration: dashed;
+    color: rgb(88, 197, 88);
+}

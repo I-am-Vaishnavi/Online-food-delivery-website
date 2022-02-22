@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="food1.xsl" ?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="food11.xsd">
+<dinner>
+<food>
+<name>Dosa</name>
+<price>20</price>
+</food>
+<food>
+<name>parotta</name>
+<price>30</price>
+</food>
+<food>
+<name>Mushroom parotta</name>
+<price>70</price>
+</food>
+<food>
+<name>kaima parotta</name>
+<price>70</price>
+</food>
+<food>
+<name>chilli parotta</name>
+<price>65</price>
+</food>
+<food>
+<name>Poori</name>
+<price>30</price>
+</food>
+<food>
+<name>Pongal</name>
+<price>25</price>
+</food>
+<food>
+<name>Idli and Sambar</name>
+<price>10</price>
+</food>
+<food>
+<name>chappathi</name>
+<price>25</price>
+</food>
+<food>
+<name>pannir masala</name>
+<price>50</price>
+</food>
+<food>
+<name>chana masala</name>
+<price>45</price>
+</food>
+<food>
+<name>veg noodles</name>
+<price>70</price>
+</food>
+<food>
+<name>Veech Parotta</name>
+<price>25</price>
+</food>
+<food>
+<name>Paneer Noodles</name>
+<price>80</price>
+</food>
+<food>
+<name>Schezwan Noodles</name>
+<price>80</price>
+</food>
+</dinner>
+
+<dessert>
+<food>
+<name>Chocolate mousse</name>
+<price>100</price>
+</food>
+<food>
+<name>lava cake</name>
+<price>80</price>
+</food>
+<food>
+<name>Pomegranate Mousse Cake</name>
+<price>110</price>
+</food>
+<food>
+<name>ice cream</name>
+<price>100</price>
+</food>
+<food>
+<name>oreo shake</name>
+<price>90</price>
+</food>
+<food>
+<name>Molten chocolate puddings</name>
+<price>180</price>
+</food>
+<food>
+<name>fresh juices</name>
+<price>150</price>
+</food>
+<food>
+<name>Nutella Brownies</name>
+<price>120</price>
+</food>
+<food>
+<name>almond malai kulfi</name>
+<price>110</price>
+</food>
+<food>
+<name>Gulab Jamun</name>
+<price>80</price>
+</food>
+</dessert>
+</menu>

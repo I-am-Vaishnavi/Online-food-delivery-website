@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            "sign up page"
+        </title>
+        <style>
+        *{
+    margin:0%;
+    padding:0%;
+    user-select:none;
+}
+body{
+    margin:10%;
+    background-color:white; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.A{
+    width: 450px;
+    margin: 70px auto; 
+    
+    }
+.food{
+    top: 10%;
+    font-size: 60px;
+    letter-spacing: 2px;
+    line-height: 80px;
+    
+}
+h3{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div p{
+    font-size: 20px ;
+    letter-spacing: 2px;
+    
+    
+}
+div input{
+    width:120%;
+    height: 40px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: 10px;
+
+}
+div input:focus{
+    border: 2px solid #1b648f;
+}
+button{
+    width: 121%;
+    height: 40px;
+    font-size: 20px;
+    background: rgb(83, 172, 83);
+    cursor: pointer;
+    border-color: rgb(83, 172, 83);
+    
+}
+button:hover{
+       background-color: rgb(18, 88, 18);
+       color: white;
+}
+.op{
+    position: relative;
+   left: -5cm;
+
+}
+div h4{
+    text-align: 5%;
+}
+.lname,.fname{
+    float: left;
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+    
+}
+.input3 span input{
+    width: 200px;
+    float: left;  
+    
+}
+.lname{
+    margin: 0mm;
+    margin: 0mm;
+    padding: 3mm;
+    margin-top: -2.6mm;
+    text-align: -2cm end;
+}
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+          $("#btn").click(function(){
+                $("#input1").hide();
+                $("#input2").show();
+                $("#run").hide();
+                $("#input4").hide();
+            });
+        });
+        $(document).ready(function(){
+          $("#btn1").click(function(){
+                $("#input2").hide();
+                $("#input1").hide();
+                $("#run").show();
+                $("#input4").hide();
+            });
+        });
+        $(document).ready(function(){
+          $("#btn2").click(function(){
+                $("#input1").hide();
+                $("#input4").show();
+                $("#input2").hide();
+                $("#run").hide();
+            });
+        });
+        
+        </script>
+    </head>
+    <body>
+        
+        <div class=
+        "A">
+           <form action="Serverlet\sign_up" post= "method">
+           <span class="food">Spicy Food</span><br><br>
+           <span class="op">
+           <h3>Let's get started
+        </h3><br><br>
+            <div id="input1">
+                <p>Enter your mobile number</p><br>
+                <input type="text/tel" placeholder="Enter your mobile number" name="mobile number"><br><br>
+                <button id="btn">Next</button><br><br>
+                <p>Already have an acccount <a href="mini1.html">sign in!!</a> </p><br><br>
+            </div>
+            <div hidden id="input2">
+                <p>Enter your email address</p><br>
+                <input type="email" placeholder="email address" id="email address"><br><br>
+                <button id="btn1">Next</button><br><br></div>
+            <div hidden id="run" class="input3">
+                <span class="fname">First name<br><br>
+                    <input type="text" placeholder="first name" id="first name"><br><br>
+                </span>
+                <span class="lname">Last name<br><br>
+                    <input type="text" placeholder="last name" id="last name"><br><br><br>
+                </span>
+                <button id="btn2">Next</button><br><br>
+            </div>
+            <div hidden id="input4">   
+                <p>Enter the new password</p><br>
+                <input type="text/password" placeholder="create password" id="password"><br><br>
+                <button id="btn3" type="button" onclick="alert('sign up successful')">Next</button><br><br>
+                <p>back to sign in page <a href="mini1.html" >sign in!!</a></p></div>
+            </span>
+            </div>
+          </form>
+    </div>
+    </body>
+</html>

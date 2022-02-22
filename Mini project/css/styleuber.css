@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+*{
+    top:0;
+    margin: 0;
+    padding:0;
+}
+.bg{
+    background-image: url("../css/images/b5.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #FFC254;
+    height: 100vh;
+}
+.mid{
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #FFC254;
+    width: 90px;
+}
+#menu{
+    font-size: 32px;
+    cursor: pointer;
+    margin-left: 32px;
+    margin-top: 37px;
+    color: black;
+}
+/* navigation */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+    font-family: 'DM Sans', sans-serif;
+  }
+  #box{
+      background-color: #000000;
+      box-sizing: border-box;
+      color: aliceblue;
+  }
+  .sidenav a:hover{
+    color: #000000;
+    font-size: 18px;
+  }
+  .total_style:hover {
+    color: #ffffff;
+    background-color: #FFC254;
+  }
+  #box:hover{
+      background-color: #FFC254;
+      color: #000000;
+      transition: 0.3s;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+.container{
+    margin-top: 37vh;
+    margin-left: 32px;
+}
+label{
+    font-size: 62px;
+    color: rgb(255, 255, 255);
+    margin-top: 120vh;
+    margin-left: 32px;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 1px 2px 3px #000000d2;
+}
+
+#logo{
+  font-size: 32px;
+    margin-top: 120vh;
+    margin-left: 32px;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 1px 2px 3px #000000d2;
+}
+.inline_disp{
+    display: inline-block;
+    width: 100%;
+}
+#pin{
+    font-size: 32px;
+    cursor: pointer;
+    margin-left: 32px;
+    margin-top: 42px;
+    top:0;
+    vertical-align: bottom;
+    font-size: 48px !important;
+    /* font-size: 20px !important; */
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 2px 3px #ffffff;
+    /* background-color: #Ffff; */
+    padding: 6px;
+    margin: 8px;
+    height: 42px;
+}
+#search{
+    padding: 6px;
+    border: none;
+    margin-left: 32px;
+    font-size: 17px;
+    width: 35%;
+    height: 42px;
+}
+#Delivery{
+    padding: 10px;
+    border: none;
+    /* margin-left: 32px; */
+    font-size: 17px;
+    margin: 8px;
+    height: 52px;
+}
+#find{
+    font-size: 17px;
+    height: 52px;
+    padding: 2px;
+    padding: 10px;
+    border: none;
+    color: aliceblue;
+    background-color: black;
+}
+#find:hover{
+  font-size: 17px;
+  height: 52px;
+  padding: 2px;
+  padding: 10px;
+  border: none;
+  color: aliceblue;
+  cursor: pointer;
+  background-color: rgb(54, 54, 54);
+  box-shadow: 1px 2px 3px rgba(54, 54, 54, 0.452);
+}
+footer{
+  background-color: #000000;
+}
+.side{
+  margin-left: 520px;
+}
+.side a{
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+}
+.side2{
+  text-align: right;
+  
+}
+.side2 a{
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  padding: 20px;
+}
+.available{
+  background-color: rgb(255, 174, 0);
+  height: 30vh;
+  text-align: center;
+  font-size: 12px;
+}
+/* 
+#moving{
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+} */
+.social a{
+  color: rgb(7, 7, 7);
+  font-size: large;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    background-color:#FFC254;
+    box-shadow:  3px 2px 2px rgba(253, 253, 253, 0.582) ;
+    
+}
+.social ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-decoration: none;
+}
+.social li{
+  padding: 50px;
+}
+.social a:hover{
+  background-color: #ffffff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: 0.3s;
+}

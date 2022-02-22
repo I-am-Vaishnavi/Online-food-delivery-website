@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            "sign up page"
+        </title>
+        
+        <link rel="stylesheet" href="css/mini2.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+          $("#btn").click(function(){
+                $("#input1").hide();
+                $("#input2").show();
+                $("#run").hide();
+                $("#input4").hide();
+            });
+        });
+        $(document).ready(function(){
+          $("#btn1").click(function(){
+                $("#input2").hide();
+                $("#input1").hide();
+                $("#run").show();
+                $("#input4").hide();
+            });
+        });
+        $(document).ready(function(){
+          $("#btn2").click(function(){
+                $("#input1").hide();
+                $("#input4").show();
+                $("#input2").hide();
+                $("#run").hide();
+            });
+        });
+        
+        </script>
+    </head>
+    <body>
+        <div class=
+        "A">
+           
+           <span class="food">Spicy Food</span><br><br>
+           <span class="op">
+               <!-- <form action="sign1"> -->
+           <h3>Let's get started
+        </h3><br><br>
+            <div id="input1">
+                <p>Enter phone number</p><br>
+                <input type="text/tel" placeholder="Enter phone number" name="mobile number"><br><br>
+                <button id="btn">Next</button><br><br>
+                <p>Already have an acccount <a href="mini1.html">sign in!!</a> </p><br><br>
+            </div>
+            <div hidden id="input2">
+                <p>Enter your email address</p><br>
+                <input type="email" placeholder="Enter Email address" id="email address"><br><br>
+                <button id="btn1">Next</button><br><br></div>
+            <div hidden id="run" class="input3">
+                <span class="fname">Enter First name<br><br>
+                    <input type="text" placeholder="Enter first name" id="first name"><br><br>
+                </span>
+                <span class="lname">Enter Last name<br><br>
+                    <input type="text" placeholder="Enter last name" id="last name"><br><br><br>
+                </span>
+                <button id="btn2">Next</button><br><br>
+            </div>
+            <div hidden id="input4">   
+                <p>Enter Password</p><br>
+                <input type="text/password" placeholder="Enter Password" id="password"><br><br>
+                <button id="btn3" type="button" onclick="alert('sign up successful')">Next</button><br><br>
+                <p>back to sign in page <a href="mini1.html" >sign in!!</a></p></div>
+            </span>
+            </div>
+          
+    </div>
+    <footer>
+        <a href="#" id="side1">© 2020 Spicy Eats Technologies, Inc.</a>
+        <a href="#" id="side2">Privacy Policy  |  Terms of Use</a>
+    </footer>
+    </body>
+</html>

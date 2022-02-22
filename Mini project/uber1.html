@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spicy Eats</title>
+    <link rel="stylesheet" href="css/styleuber.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+</head>
+<body>
+    <div class="bg">
+    <header>
+        <!-- logo,nag -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="mini1.html" id="box" class="total_style">Sign in</a>
+        <a href="#" class="total_style">Create a business account</a>
+        <a href="#" class="total_style">Add your restaurant</a>
+        <a href="mini2.html" class="total_style">Sign up to deliver</a>
+        <a href="xml/food.xml" class="total_style">Food availability 1</a>
+        <a href="xml/food1.xml" class="total_style">Food availability 2</a>
+
+        </div>
+    <div id="moving">
+    <span class="material-icons" id="menu"onclick="openNav()">menu</span>
+    <label id="logo">Spicy Eats</label>
+    </div>
+    </header>
+    <div class="container">
+    <label>Order Food to your door</label><br>
+    <br>
+    <div class="inline_disp">
+    <i class="material-icons" id="pin">place</i>    
+    <input type="text"  placeholder="Enter delivery address" id="search">
+        <!-- <span class="material-icons" id="pin">place</span> -->
+        <select name="Delivery" id="Delivery">
+            <option value="Deliver now"> Deliver now</option>
+            <option value="Schedule for later">Schedule for later</option>
+        </select>
+        <button id="find">Find Food</button>
+    </div>    
+    </div>
+    </div>
+    <!-- <div class="available">
+        <label>Food availability check</label>
+        <button>  <a href="xml/food.xml"></a></button>
+    </div> -->
+    <!-- <div class="mid">
+        <img src="css/images/restaurant.PNG" alt="">
+    </div> -->
+    <footer>
+        <label>Spicy Eats</label>
+        <div class="side">
+        <li>
+        <ul><a href="#">Get Help</a></ul><br>
+        <ul><a href="#">Buy gift cards</a></ul><br>
+        <ul><a href="#">Add your restaurant</a></ul><br>
+        <ul><a href="#">Sign up to deliver</a></ul><br>
+        <ul><a href="#">Create a business account</a></ul><br>
+        <ul><a href="#">Save on yoour first order</a></ul><br>
+        </li></div>
+
+    <hr><div class="side2">
+            <li>
+                <ul> <a href="#" >Privacy Policy   </a>
+                 <a href="#">Terms  </a>
+                 <a href="#">Pricing  </a>
+                 <a href="#">Do not sell my info (California)  </a></ul> <br>
+                <ul> <a href="#">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</a>
+                 <a href="#">© 2021 Spicy Eats Technologies Inc.</a></ul>
+                 <br><br>
+
+            </li>
+        </div>
+        <div class="social">
+            <li>
+            
+                <ul> <span><a href="https://www.instagram.com/" class="fa fa-instagram"> </a>
+                <a href="https://www.facebook.com/" class="fa fa-facebook"></a> </span>
+                <span> <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a> 
+                <a href="https://www.google.com/" class="fa fa-google"></a></ul></span>
+            </li>
+            </div>
+
+    </footer>
+    <script>
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "white";
+        }
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("moving").style.top = "0";
+        } else {
+            document.getElementById("moving").style.top = "-50px";
+        }
+        }
+        </script>
+</body>
+</html>
